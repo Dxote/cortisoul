@@ -16,7 +16,7 @@ const Community: React.FC = () => {
           <div className={styles.headerContent}>
             <div>
               <h1 className={styles.title}>COMMUNITY'S <span>FEED</span></h1>
-              <p className={styles.subtitle}>Stories, shitposts, and serious discussions from the Cortisoul collective.</p>
+              <p className={styles.subtitle}>Desc.</p>
             </div>
             <div className={styles.controls}>
               <div className={styles.searchBar}>
