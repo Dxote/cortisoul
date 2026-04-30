@@ -28,8 +28,6 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     return saved ? JSON.parse(saved) : defaultColors;
   });
 
-  const [isTransitioning, setIsTransitioning] = useState(false);
-
   useEffect(() => {
     // Apply colors to CSS variables
     const root = document.documentElement;
@@ -46,8 +44,6 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   }, [colors]);
 
   const updateTheme = (newColors: Partial<ThemeColors>) => {
-    setIsTransitioning(true);
-
     let overlay = document.getElementById('theme-overlay');
     if (!overlay) {
       overlay = document.createElement('div');
@@ -62,7 +58,6 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
       setTimeout(() => {
         overlay?.classList.remove('active');
-        setIsTransitioning(false);
       }, 300);
     }, 300);
   };
