@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Alexander Vance",
+    "username": "admin",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=vance",
+    "role": "Admin",
+    "email": "vance@cortisoul.com"
+  },
+  {
+    "id": "2",
+    "name": "Elena Kross",
+    "username": "kross_dev",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=elena",
+    "role": "Member",
+    "email": "elena@cortisoul.com"
+  },
+  {
+    "id": "3",
+    "name": "Marcus Thorne",
+    "username": "thorne_hq",
+    "avatar": "https://api.dicebear.com/7.x/shapes/svg?seed=marcus",
+    "role": "Member",
+    "email": "marcus@cortisoul.com"
+  }
+]

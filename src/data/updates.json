@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u1",
+    "version": "v2.5.0-beta",
+    "title": "Quantum Rendering Engine",
+    "date": "2026-04-30",
+    "type": "Major",
+    "details": "Initial rollout of the Quantum Rendering Engine for real-time ray-traced dashboards."
+  },
+  {
+    "id": "u2",
+    "version": "v2.4.9",
+    "title": "Security Patch",
+    "date": "2026-04-25",
+    "type": "Patch",
+    "details": "Resolved a critical vulnerability in the handshake protocol."
+  },
+  {
+    "id": "u3",
+    "version": "v2.4.8",
+    "title": "Theme Sync v2",
+    "date": "2026-04-20",
+    "type": "Feature",
+    "details": "Global theme synchronization across multiple devices using low-latency relay servers."
+  }
+]

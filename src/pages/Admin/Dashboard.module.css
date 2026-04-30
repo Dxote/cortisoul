@@ -1,0 +1,304 @@
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  padding-top: var(--navbar-height);
+}
+
+.sidebar {
+  width: 280px;
+  background-color: var(--surface-color);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarHeader {
+  padding: 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.brand {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+}
+
+.brand span {
+  color: var(--accent-color);
+}
+
+.sidebarNav {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--text-secondary);
+  border-radius: 4px;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.navItem:hover {
+  background-color: var(--surface-hover);
+  color: var(--text-primary);
+}
+
+.navItem.active {
+  background-color: var(--accent-muted);
+  color: var(--accent-color);
+}
+
+.content {
+  flex: 1;
+  padding: 3rem;
+  overflow-y: auto;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.contentHeader h1 {
+  font-size: 2.5rem;
+}
+
+.createBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--accent-color);
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Overview */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.statCard {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.statInfo span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.1em;
+}
+
+.statInfo h3 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.trend {
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.statIcon {
+  color: var(--accent-color);
+  opacity: 0.5;
+}
+
+.activityFeed {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+}
+
+.activityFeed h3 {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.activityList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.activityItem {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent-color);
+}
+
+.activityText p {
+  margin-bottom: 0.3rem;
+}
+
+.activityText p span {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.activityText span {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.activityArrow {
+  margin-left: auto;
+  color: var(--text-secondary);
+}
+
+/* Theme Configurator */
+.themeConfigurator {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  padding: 2.5rem;
+}
+
+.configHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.resetBtn {
+  color: #ff4d4d;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.configGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.configItem label {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.colorInput {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.colorInput input[type="color"] {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.colorInput span {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.previewArea {
+  padding-top: 3rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.previewArea h4 {
+  margin-bottom: 1rem;
+}
+
+.previewArea p {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.previewCard {
+  width: 300px;
+  padding: 2rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.previewAccent {
+  width: 50px;
+  height: 4px;
+  background-color: var(--accent-color);
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 80px;
+  }
+  .brand, .navItem span {
+    display: none;
+  }
+  .navItem {
+    justify-content: center;
+  }
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .sidebarNav {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  .configGrid {
+    grid-template-columns: 1fr;
+  }
+}

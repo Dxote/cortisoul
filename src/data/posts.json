@@ -1,0 +1,62 @@
+[
+  {
+    "id": "p1",
+    "title": "Welcome to the Society",
+    "description": "Description.",
+    "tag": "Announcement",
+    "timestamp": "2026-04-28T10:00:00Z",
+    "image": "/assets/images/post1.jpg",
+    "author": "Author",
+    "size": "large",
+    "likes": 1240,
+    "shares": 430
+  },
+  {
+    "id": "p2",
+    "title": "Community Game Night: Finals",
+    "description": "Who's ready for the weekend tournament? Bracket is up, prepare to get destroyed by lyr1cs.",
+    "tag": "Gaming",
+    "timestamp": "2026-04-29T14:30:00Z",
+    "image": "/assets/images/post2.jpg",
+    "author": "kross_dev",
+    "size": "standard",
+    "likes": 850,
+    "shares": 120
+  },
+  {
+    "id": "p3",
+    "title": "Late Night Discussion: Theme",
+    "description": "Anyone still awake? Let's talk about the crazy AI models dropping this week.",
+    "tag": "Discussion",
+    "timestamp": "2026-04-30T09:00:00Z",
+    "image": "/assets/images/post3.jpg",
+    "author": "thorne_hq",
+    "size": "standard",
+    "likes": 420,
+    "shares": 50
+  },
+  {
+    "id": "p4",
+    "title": "Thread",
+    "description": "Drop your battlestations! Need some inspiration for my new minimalist desk.",
+    "tag": "Showcase",
+    "timestamp": "2026-04-27T16:00:00Z",
+    "image": "/assets/images/post3.jpg",
+    "author": "vance_admin",
+    "size": "compact",
+    "likes": 2100,
+    "shares": 890
+  },
+  {
+    "id": "p5",
+    "title": "IRL Meetup Plans?",
+    "description": "Thinking of organizing a meetup in Jakarta next month. Who's down?",
+    "tag": "Event",
+    "timestamp": "2026-04-26T12:00:00Z",
+    "image": "/assets/images/post2.jpg",
+    "author": "kross_dev",
+    "size": "compact",
+    "likes": 670,
+    "shares": 30
+  }
+]
